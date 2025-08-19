@@ -4,19 +4,18 @@ A modern, responsive, and feature-rich analytics dashboard built with Next.js, d
 
 🚀 Features
 
-📊 Sales Tracking – Visualize revenue growth and performance trends.
+Sales Tracking – Visualize revenue growth and performance trends.
 
-👥 User Insights – Manage users and understand engagement metrics.
+User Insights – Manage users and understand engagement metrics.
 
-🏷️ Listings Management – Track active and inactive listings effortlessly.
+Listings Management – Track active and inactive listings effortlessly.
 
-📱 Responsive Design – Optimized for desktops, tablets, and mobile devices.
+Responsive Design – Optimized for desktops, tablets, and mobile devices.
 
-⚡ Fast & Scalable – Powered by Next.js App Router with optimized performance.
+Fast & Scalable – Powered by Next.js App Router with optimized performance.
 
-🎨 Modern UI – Clean, minimal, and interactive design with Tailwind CSS.
+Modern UI – Clean, minimal, and interactive design with Tailwind CSS.
 
-🔒 Secure – Built with best practices for authentication & authorization.
 
 🛠️ Tech Stack
 
@@ -24,8 +23,6 @@ Framework: Next.js 13+
  (App Router)
 
 Styling: Tailwind CSS
-
-Animations: Framer Motion
 
 Charts: Recharts
 
