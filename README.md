@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+MYXELLIA Dashboard
 
-## Getting Started
+A modern, responsive, and feature-rich analytics dashboard built with Next.js, designed to help businesses monitor and manage sales, users, and listings in one powerful platform.
 
-First, run the development server:
+🚀 Features
 
-```bash
+Sales Tracking – Visualize revenue growth and performance trends.
+
+User Insights – Manage users and understand engagement metrics.
+
+Listings Management – Track active and inactive listings effortlessly.
+
+Responsive Design – Optimized for desktops, tablets, and mobile devices.
+
+Fast & Scalable – Powered by Next.js App Router with optimized performance.
+
+Modern UI – Clean, minimal, and interactive design with Tailwind CSS.
+
+
+🛠️ Tech Stack
+
+Framework: Next.js 13+
+ (App Router)
+
+Styling: Tailwind CSS
+
+Charts: Recharts
+
+Language: TypeScript
+
+📂 Project Structure
+myxellia-dashboard/
+│── app/               # App router pages & layouts
+│── components/        # Reusable UI components
+│── public/            # Static assets (favicon, images, etc.)
+│── styles/            # Global styles
+│── package.json       # Dependencies & scripts
+│── README.md          # Project documentation
+
+⚙️ Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/myxellia-dashboard.git
+cd myxellia-dashboard
+
+2. Install dependencies
+npm install
+
+3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+App will be live at http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📦 Production Build
 
-## Learn More
+To create an optimized build:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm run build
+npm start
