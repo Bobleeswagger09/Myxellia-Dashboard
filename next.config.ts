@@ -1,4 +1,3 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   theme: {
@@ -11,7 +10,7 @@ const nextConfig = {
   },
 
   images: {
-    domains: ["picsum.photos", "images.pexels.com"], // allow picsum
+    domains: ["picsum.photos", "images.pexels.com"],
   },
 };
 

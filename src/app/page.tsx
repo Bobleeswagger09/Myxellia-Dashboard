@@ -20,7 +20,7 @@ export default function DashboardPage() {
         <SalesOverview />
         <ListingsOverview />
       </section>
-      <section className="h-76 grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+      <section className=" h-150 lg:h-76 grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
         <Card className="relative rounded-2xl overflow-hidden ">
           <Image
             src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg"
