@@ -170,11 +170,15 @@ function MetricTile({
 }) {
   return (
     <div className="rounded-xl border border-gray-200 p-4">
-      <p className={` lg:text-2xl font-bold ${valueColor}`}>{value}</p>
+      <p
+        className={`lg:text-lg xl:text-xl 2xl:text-2xl font-bold ${valueColor}`}
+      >
+        {value}
+      </p>
       <div className="mt-1 flex items-center justify-between">
         <span className="text-sm text-gray-500 font-medium">{label}</span>
         <span
-          className={`text-md font-medium flex items-center gap-1 whitespace-nowrap ${changeColor}`}
+          className={`xl:text-md font-medium flex items-center gap-1 whitespace-nowrap ${changeColor}`}
         >
           <Dot className={changeColor.replace("text-", "bg-")} />
           {change}

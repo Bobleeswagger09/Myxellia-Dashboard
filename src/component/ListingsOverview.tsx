@@ -4,7 +4,7 @@ import { FaRegUser } from "react-icons/fa";
 
 export default function ListingsOverview() {
   return (
-    <div className="flex  lg:flex-col gap-5 lg:w-[30%]">
+    <div className="flex sm:flex-row: flex-col lg:flex-row  xl:flex-col gap-5 xl:w-[30%]">
       <OverviewSection
         title="Listings Overview"
         icon={GiHouse}
